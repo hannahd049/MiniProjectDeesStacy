@@ -1,4 +1,4 @@
-# Movie Review Sentiment Analysis
+# Movie Review Analysis
 ## CS 3810 – Introduction to Artificial Intelligence
 ### Mini Project 2
 #### Hannah Dees and Alexis Stacy
@@ -52,39 +52,6 @@ Reviews were cleaned and normalized before model training.
 
 A Bag of Words representation was generated from the movie reviews and used to train a Naive Bayes classifier.
 
-### TF-IDF + Logistic Regression
-
-TF-IDF weighting was applied to improve feature quality and reduce the impact of common words.
-
-### TF-IDF + Support Vector Machine
-
-Two different feature sets were compared:
-
-#### Unigrams
-
-Single-word features.
-
-Examples:
-
-```text
-good
-bad
-excellent
-```
-
-#### Unigrams + Bigrams
-
-Word pairs and phrases.
-
-Examples:
-
-```text
-not good
-very bad
-waste of
-```
-
----
 
 ## Part 3: Word Embeddings and Transformers
 
